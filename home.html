@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Mail - MainPage</title>
+	<meta charset="UTF-8">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20231011135706">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="shortcut icon" href="img/icons/head-logo.svg">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<!-- //======================================================================================================================================================== -->
+
+<body>
+	<div class="wrapper wrapper-bg">
+		<!-- //======================================================================================================================================================== -->
+		<header class="header">
+			<div class="header__menu menu">
+				<button type="button" class="menu__icon icon-menu"><span></span></button>
+				<div class="menu__body">
+					<span class="menu__span">Закрыть</span>
+					<div data-spollers class="menu__spollers spollers-menu">
+						<a href="" class="menu__navlink"><img src="img/avatar.svg" alt="Avatar">Мой профиль</a>
+						<a href="purchases.html" class="menu__navlink _icon-order">Мои закупки<span>8</span></a>
+						<a href="" class="menu__navlink _icon-cart">Мои поставки</a>
+						<div class="spollers-menu__item">
+							<button type="button" data-spoller class="spollers-menu__title _icon-bag">Моя компания</button>
+							<div class="spollers-menu__body">
+								<a href="" class="spollers-menu__link">Сбор предложений</a>
+								<a href="" class="spollers-menu__link">Обработка запросов</a>
+							</div>
+						</div>
+						<div class="spollers-menu__item">
+							<button type="button" data-spoller class="spollers-menu__title _icon-chat">Новое в чатах</button>
+							<div class="spollers-menu__body">
+								<button type="button" class="spollers-menu__button _btn-link _icon-plus">Создать групповой чат</button>
+								<a href="" class="spollers-menu__link _icon-chat">Чат первый<span>18</span></a>
+								<a href="" class="spollers-menu__link _icon-chat">Чат второй<span>18</span></a>
+							</div>
+						</div>
+					</div>
+					<button data-popup="#subscribe" type="button" class="menu__button _btn">Подписаться на новости</button>
+					<ul class="menu__list">
+						<a href="" class="menu__link _icon-time">Лента событий</a>
+						<a href="" class="menu__link _icon-docs">Отчеты</a>
+						<a href="" class="menu__link _icon-pay">Лицензия и оплаты</a>
+						<a href="" class="menu__link _icon-suport">Поддержка. Новости</a>
+					</ul>
+				</div>
+			</div>
+			<h5 class="header__title">Настройки</h5>
+			<div class="header__alert alert">
+				<button type="button" class="alert__icon _icon-chat"></button>
+				<div class="alert__body alert__body--disable">
+					<button type="button" class="alert__close _icon-arrows _btn-close-open"></button>
+					<a href="purchases.html" class="alert__link _icon-arrow-smoth">К списку всех закупок</a>
+					<div class="alert__message message-alert">
+						<div class="message-alert__text _icon-corect _text-green">
+							<p>Lorem ipsum dolor sit amet consectetur. Lacus sollicitudin diam id purus eu dignissim lacus. A amet duis nibh scelerisque ut.</p>
+						</div>
+						<div class="message-alert__actions">
+							<button type="button" class="message-alert__icon _min-icon _icon-star"></button>
+							<button type="button" class="message-alert__icon _min-icon _icon-more"></button>
+						</div>
+					</div>
+					<div data-tabs class="alert__tabs tabs-alert">
+						<nav data-tabs-titles class="tabs-alert__navigation">
+							<button type="button" class="tabs-alert__title _tab-active">Чат*</button>
+							<button type="button" class="tabs-alert__title">Техзадание</button>
+							<button type="button" class="tabs-alert__title">Позиции</button>
+							<button type="button" class="tabs-alert__title">Инфо / Лог</button>
+						</nav>
+						<div data-tabs-body class="tabs-alert__content">
+							<div class="tabs-alert__body chat-tabs-body">
+								<div class="chat-tabs-body__content content-chat-body">
+									<div class="content-chat-body__date">16 августа</div>
+									<div class="content-chat-body__message message-content-chat message-content-chat--right">
+										<div class="message-content-chat__content"><span class="message-content-chat__title">Здравствуйте</span>
+											<div class="message-content-chat__actions">
+												<div class="message-content-chat__time">12:07 AM</div>
+												<div class="message-content-chat__icon _icon-sec-check"></div>
+											</div>
+										</div>
+										<div class="message-content-chat__menu menu-message-chat">
+											<button type="button" class="menu-message-chat__button _icon-arrow-snake">Ответить</button>
+											<button type="button" class="menu-message-chat__button _icon-arrow-snake">Переслать</button>
+											<button type="button" class="menu-message-chat__button _icon-edit">Редактировать</button>
+											<button type="button" class="menu-message-chat__button _icon-trash">Удалить</button>
+											<button type="button" class="menu-message-chat__button _icon-pin-main">Закрепить</button>
+										</div>
+									</div>
+									<div class="content-chat-body__message message-content-chat message-content-chat--left">
+										<div class="message-content-chat__content"><span class="message-content-chat__title">Lorem ipsum dolor sit amet consectetur. Lectus turpis suspendisse elit et aliquam aliquam rhoncus convallis ut. Ligula lorem enim porttitorhendrerit. Suspendisse sit nunc varius risus risus pulvinar scelerisque interdum. Pellentesque feugiat feugiat quisque ipsum ac felis volutpat quis egestas.</span>
+											<div class="message-content-chat__actions">
+												<div class="message-content-chat__time">12:07 AM</div>
+												<div class="message-content-chat__icon _icon-sec-check"></div>
+											</div>
+										</div>
+										<div class="message-content-chat__menu menu-message-chat">
+											<button type="button" class="menu-message-chat__button _icon-arrow-snake">Ответить</button>
+											<button type="button" class="menu-message-chat__button _icon-arrow-snake">Переслать</button>
+											<button type="button" class="menu-message-chat__button _icon-edit">Редактировать</button>
+											<button type="button" class="menu-message-chat__button _icon-trash">Удалить</button>
+											<button type="button" class="menu-message-chat__button _icon-pin-main">Закрепить</button>
+										</div>
+									</div>
+									<div class="content-chat-body__message message-content-chat message-content-chat--right">
+										<div class="message-content-chat__content"><span class="message-content-chat__title">Здравствуйте</span>
+											<div class="message-content-chat__actions">
+												<div class="message-content-chat__time">12:07 AM</div>
+												<div class="message-content-chat__icon _icon-sec-check"></div>
+											</div>
+										</div>
+										<div class="message-content-chat__menu menu-message-chat">
+											<button type="button" class="menu-message-chat__button _icon-arrow-snake">Ответить</button>
+											<button type="button" class="menu-message-chat__button _icon-arrow-snake">Переслать</button>
+											<button type="button" class="menu-message-chat__button _icon-edit">Редактировать</button>
+											<button type="button" class="menu-message-chat__button _icon-trash">Удалить</button>
+											<button type="button" class="menu-message-chat__button _icon-pin-main">Закрепить</button>
+										</div>
+									</div>
+									<div class="content-chat-body__message message-content-chat message-content-chat--left">
+										<div class="message-content-chat__content"><span class="message-content-chat__title">Lorem ipsum dolor sit amet consectetur. Lectus turpis suspendisse elit et aliquam aliquam rhoncus convallis ut. Ligula lorem enim porttitorhendrerit. Suspendisse sit nunc varius risus risus pulvinar scelerisque interdum. Pellentesque feugiat feugiat quisque ipsum ac felis volutpat quis egestas.</span>
+											<div class="message-content-chat__actions">
+												<div class="message-content-chat__time">12:07 AM</div>
+												<div class="message-content-chat__icon _icon-sec-check"></div>
+											</div>
+										</div>
+										<div class="message-content-chat__menu menu-message-chat">
+											<button type="button" class="menu-message-chat__button _icon-arrow-snake">Ответить</button>
+											<button type="button" class="menu-message-chat__button _icon-arrow-snake">Переслать</button>
+											<button type="button" class="menu-message-chat__button _icon-edit">Редактировать</button>
+											<button type="button" class="menu-message-chat__button _icon-trash">Удалить</button>
+											<button type="button" class="menu-message-chat__button _icon-pin-main">Закрепить</button>
+										</div>
+									</div>
+									<div class="content-chat-body__message message-content-chat message-content-chat--right">
+										<div class="message-content-chat__content"><span class="message-content-chat__title">Здравствуйте</span>
+											<div class="message-content-chat__actions">
+												<div class="message-content-chat__time">12:07 AM</div>
+												<div class="message-content-chat__icon _icon-sec-check"></div>
+											</div>
+										</div>
+										<div class="message-content-chat__menu menu-message-chat">
+											<button type="button" class="menu-message-chat__button _icon-arrow-snake">Ответить</button>
+											<button type="button" class="menu-message-chat__button _icon-arrow-snake">Переслать</button>
+											<button type="button" class="menu-message-chat__button _icon-edit">Редактировать</button>
+											<button type="button" class="menu-message-chat__button _icon-trash">Удалить</button>
+											<button type="button" class="menu-message-chat__button _icon-pin-main">Закрепить</button>
+										</div>
+									</div>
+									<div class="content-chat-body__message message-content-chat message-content-chat--left">
+										<div class="message-content-chat__content"><span class="message-content-chat__title">Lorem ipsum dolor sit amet consectetur. Lectus turpis suspendisse elit et aliquam aliquam rhoncus convallis ut. Ligula lorem enim porttitorhendrerit. Suspendisse sit nunc varius risus risus pulvinar scelerisque interdum. Pellentesque feugiat feugiat quisque ipsum ac felis volutpat quis egestas.</span>
+											<div class="message-content-chat__actions">
+												<div class="message-content-chat__time">12:07 AM</div>
+												<div class="message-content-chat__icon _icon-sec-check"></div>
+											</div>
+										</div>
+										<div class="message-content-chat__menu menu-message-chat">
+											<button type="button" class="menu-message-chat__button _icon-arrow-snake">Ответить</button>
+											<button type="button" class="menu-message-chat__button _icon-arrow-snake">Переслать</button>
+											<button type="button" class="menu-message-chat__button _icon-edit">Редактировать</button>
+											<button type="button" class="menu-message-chat__button _icon-trash">Удалить</button>
+											<button type="button" class="menu-message-chat__button _icon-pin-main">Закрепить</button>
+										</div>
+									</div>
+								</div>
+								<div class="chat-tabs-body__tools tools-chat-body">
+									<button type="button" class="tools-chat-body__pin _icon-pin"></button>
+									<label for="#" class="tools-chat-body__label"><input class="chat-input" autocomplete="off" type="text" placeholder="Напишите сообщение в чат"><button type="button"><img src="img/icons/emoji.svg" alt="Icon"></button></label>
+									<button type="button" class="tools-chat-body__action _icon-micro"></button>
+								</div>
+							</div>
+							<div class="tabs-alert__body exers-tabs-body">
+								<div class="exers-tabs-body__main">
+									<div class="exers-tabs-body__image"><img src="img/icons/tz.svg" alt="Icom"></div>
+									<h4 class="exers-tabs-body__title">Пока здесь пусто</h4>
+									<p class="exers-tabs-body__text">Нажмите “Редактировать описание”, чтобы добавить текст</p>
+									<button type="button" class="exers-tabs-body__button _btn-blue">Редактировать описание</button>
+								</div>
+								<div class="exers-tabs-body__bottom">
+									<div class="exers-tabs-body__subtitle _icon-quest">Раздел</div>
+									<div class="positions-tabs-body__actions actions-positions-tabs">
+										<button type="button" class="actions-positions-tabs__button _btn-link _icon-plus">Создать позицию</button>
+										<button type="button" class="actions-positions-tabs__button _btn-link _icon-plus-box">Добавить из существующих</button>
+									</div>
+									<div class="positions-tabs-body__rules rules-positions-tabs">
+										<h5 class="rules-positions-tabs__title _icon-quest">Требование к поставщику</h5>
+										<button type="button" class="rules-positions-tabs__button _btn-link _icon-plus-box">Добавить из существующих</button>
+									</div>
+								</div>
+							</div>
+							<div class="tabs-alert__body positions-tabs-body">
+								<div class="positions-tabs-body__level level-positions-tabs">
+									<div class="level-positions-tabs__top">
+										<h5 class="level-positions-tabs__title _icon-quest">Позиции</h5>
+										<div class="level-positions-tabs__step">3 / 5</div>
+									</div>
+									<label for="#" class="level-positions-tabs__label"><span style="width: 60%;"></span></label>
+								</div>
+								<div class="positions-tabs-body__messages messages-positions-tabs">
+									<div class="messages-positions-tabs__item">
+										<p class="messages-positions-tabs__text _text-grey _icon-corect">Lorem ipsum dolor sit amet consectetur. Lacus sollicitudin diam id purus eu dignissim lacus.</p>
+										<button type="button" class="messages-positions-tabs__icon _min-icon _icon-more"></button>
+									</div>
+									<div class="messages-positions-tabs__item messages-positions-tabs__item--completed">
+										<p class="messages-positions-tabs__text _text-green _icon-corect">Lorem ipsum dolor sit amet consectetur. Lacus sollicitudin diam id purus eu dignissim lacus.</p>
+										<button type="button" class="messages-positions-tabs__icon _min-icon _icon-more"></button>
+									</div>
+								</div>
+								<div class="positions-tabs-body__actions actions-positions-tabs">
+									<button type="button" class="actions-positions-tabs__button _btn-link _icon-plus">Создать позицию</button>
+									<button type="button" class="actions-positions-tabs__button _btn-link _icon-plus-box">Добавить из существующих</button>
+								</div>
+								<div class="positions-tabs-body__rules rules-positions-tabs">
+									<h5 class="rules-positions-tabs__title _icon-quest">Требование к поставщику</h5>
+									<button type="button" class="rules-positions-tabs__button _btn-link _icon-plus-box">Добавить из существующих</button>
+								</div>
+							</div>
+							<div class="tabs-alert__body info-tabs-body">
+								<div class="info-tabs-body__content">
+									<div data-spollers class="info-tabs-body__spollers spollers-info-tabs">
+										<div class="spollers-info-tabs__item">
+											<button type="button" data-spoller class="spollers-info-tabs__title _icon-arrow-smoth">Заголовок спойлера</button>
+											<div class="spollers-info-tabs__body body-spollers-info">
+												<div class="body-spollers-info__main">
+													<h4 class="body-spollers-info__title">Автор и исполнители</h4>
+													<div class="body-spollers-info__items">
+														<div class="body-spollers-info__item">Создано: <img src="img/avatar.svg" alt="Icon"><span>28 мар, 22:53</span><button type="button">Изменить</button></div>
+														<div class="body-spollers-info__item">Исполнители: <img src="img/avatar.svg" alt="Icon"><button type="button">Изменить</button></div>
+														<div class="body-spollers-info__item">Ответственный: <img src="img/avatar.svg" alt="Icon"><button type="button">Изменить</button></div>
+														<div class="body-spollers-info__item">Поручили: <img src="img/avatar.svg" alt="Icon"></div>
+													</div>
+												</div>
+												<div class="body-spollers-info__bottom">
+													<h4 class="body-spollers-info__title">Автор и исполнители</h4>
+													<div class="body-spollers-info__content">
+														<span>Обработка запросов</span> — <span>Моя доска</span> — <span>Готово</span>
+														<button type="button" class="body-spollers-info__button _icon-arrow-smoth _btn-link">Перейти к доске</button>
+														<button type="button" class="body-spollers-info__button _icon-move _btn-link">Переместить</button>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="spollers-info-tabs__item">
+											<button type="button" data-spoller class="spollers-info-tabs__title _icon-arrow-smoth">Кто видит закупку?</button>
+											<div class="spollers-info-tabs__body body-spollers-info">
+												<div class="body-spollers-info__main">
+													<h4 class="body-spollers-info__title">Автор и исполнители</h4>
+													<div class="body-spollers-info__items">
+														<div class="body-spollers-info__item">Создано: <img src="img/avatar.svg" alt="Icon"><span>28 мар, 22:53</span><button type="button">Изменить</button></div>
+														<div class="body-spollers-info__item">Исполнители: <img src="img/avatar.svg" alt="Icon"><button type="button">Изменить</button></div>
+														<div class="body-spollers-info__item">Ответственный: <img src="img/avatar.svg" alt="Icon"><button type="button">Изменить</button></div>
+														<div class="body-spollers-info__item">Поручили: <img src="img/avatar.svg" alt="Icon"></div>
+													</div>
+												</div>
+												<div class="body-spollers-info__bottom">
+													<h4 class="body-spollers-info__title">Автор и исполнители</h4>
+													<div class="body-spollers-info__content">
+														<span>Обработка запросов</span> — <span>Моя доска</span> — <span>Готово</span>
+														<button type="button" class="body-spollers-info__button _icon-arrow-smoth _btn-link">Перейти к доске</button>
+														<button type="button" class="body-spollers-info__button _icon-move _btn-link">Переместить</button>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="spollers-info-tabs__item">
+											<button type="button" data-spoller class="spollers-info-tabs__title _icon-arrow-smoth">Ссылки на другие закупки</button>
+											<div class="spollers-info-tabs__body body-spollers-info">
+												<div class="body-spollers-info__main">
+													<h4 class="body-spollers-info__title">Автор и исполнители</h4>
+													<div class="body-spollers-info__items">
+														<div class="body-spollers-info__item">Создано: <img src="img/avatar.svg" alt="Icon"><span>28 мар, 22:53</span><button type="button">Изменить</button></div>
+														<div class="body-spollers-info__item">Исполнители: <img src="img/avatar.svg" alt="Icon"><button type="button">Изменить</button></div>
+														<div class="body-spollers-info__item">Ответственный: <img src="img/avatar.svg" alt="Icon"><button type="button">Изменить</button></div>
+														<div class="body-spollers-info__item">Поручили: <img src="img/avatar.svg" alt="Icon"></div>
+													</div>
+												</div>
+												<div class="body-spollers-info__bottom">
+													<h4 class="body-spollers-info__title">Автор и исполнители</h4>
+													<div class="body-spollers-info__content">
+														<span>Обработка запросов</span> — <span>Моя доска</span> — <span>Готово</span>
+														<button type="button" class="body-spollers-info__button _icon-arrow-smoth _btn-link">Перейти к доске</button>
+														<button type="button" class="body-spollers-info__button _icon-move _btn-link">Переместить</button>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="spollers-info-tabs__item">
+											<button type="button" data-spoller class="spollers-info-tabs__title _icon-arrow-smoth">Лог событий по закупке</button>
+											<div class="spollers-info-tabs__body body-spollers-info">
+												<div class="body-spollers-info__main">
+													<h4 class="body-spollers-info__title">Автор и исполнители</h4>
+													<div class="body-spollers-info__items">
+														<div class="body-spollers-info__item">Создано: <img src="img/avatar.svg" alt="Icon"><span>28 мар, 22:53</span><button type="button">Изменить</button></div>
+														<div class="body-spollers-info__item">Исполнители: <img src="img/avatar.svg" alt="Icon"><button type="button">Изменить</button></div>
+														<div class="body-spollers-info__item">Ответственный: <img src="img/avatar.svg" alt="Icon"><button type="button">Изменить</button></div>
+														<div class="body-spollers-info__item">Поручили: <img src="img/avatar.svg" alt="Icon"></div>
+													</div>
+												</div>
+												<div class="body-spollers-info__bottom">
+													<h4 class="body-spollers-info__title">Автор и исполнители</h4>
+													<div class="body-spollers-info__content">
+														<span>Обработка запросов</span> — <span>Моя доска</span> — <span>Готово</span>
+														<button type="button" class="body-spollers-info__button _icon-arrow-smoth _btn-link">Перейти к доске</button>
+														<button type="button" class="body-spollers-info__button _icon-move _btn-link">Переместить</button>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="info-tabs-body__actions actions-info-tabs">
+										<div class="actions-info-tabs__slect">
+											<select name="form[]" data-class-modif="date">
+												<option value="1" selected>Любая дата</option>
+												<option value="2">Пункт №2</option>
+												<option value="3">Пункт №3</option>
+												<option value="4">Пункт №4</option>
+											</select>
+										</div>
+										<div class="actions-info-tabs__slect">
+											<select name="form[]" data-class-modif="date">
+												<option value="1" selected>Все действия</option>
+												<option value="2">Пункт №2</option>
+												<option value="3">Пункт №3</option>
+												<option value="4">Пункт №4</option>
+											</select>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- //======================================================================================================================================================== -->
+		<main class="page">
+			<!-- $=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-> -->
+			<!-- Navigate -->
+			<aside class="navigate">
+				<div class="navigate__body">
+					<div class="navigate__close close-navigate">
+						<div class="close-navigate__header">
+							<button type="button" class="close-navigate__open open-close _btn-close-open _icon-arrows"></button>
+							<ul class="close-navigate__navigation">
+								<li class="close-navigate__item"><a href="home.html" class="close-navigate__avatar close-link-active"><img src="img/icons/head-logo.svg" alt="Icon"></a></li>
+								<li class="close-navigate__item"><a href="purchases.html" class="close-navigate__link _icon-order"></a></li>
+								<li class="close-navigate__item"><a href="" class="close-navigate__link _icon-cart"></a></li>
+								<li class="close-navigate__item"><a href="" class="close-navigate__link _icon-bag"></a></li>
+								<li class="close-navigate__item"><a href="" class="close-navigate__link _icon-chat"></a></li>
+							</ul>
+						</div>
+						<div class="close-navigate__footer">
+							<ul class="close-navigate__navigation">
+								<li class="close-navigate__item"><a href="" class="close-navigate__link _icon-time"></a></li>
+								<li class="close-navigate__item"><a href="" class="close-navigate__link _icon-docs"></a></li>
+								<li class="close-navigate__item"><a href="" class="close-navigate__link _icon-pay"></a></li>
+								<li class="close-navigate__item"><a href="" class="close-navigate__link _icon-suport"></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="navigate__open open-navigate">
+						<div class="open-navigate__header">
+							<button type="button" class="open-navigate__close _btn-close-open _icon-arrows"></button>
+							<div class="open-navigate__profile"><img src="img/avatar.svg" alt="Avatar">
+								<h4 class="_title-smal">Мой профиль</h4>
+							</div>
+							<div data-spollers class="open-navigate__spollers spollers-open-navigate">
+								<a href="purchases.html" class="open-navigate__navlink _icon-order">Мои закупки<span>8</span></a>
+								<a href="" class="open-navigate__navlink _icon-cart">Мои поставки</a>
+								<div class="spollers-open-navigate__item">
+									<button type="button" data-spoller class="spollers-open-navigate__title _icon-bag">Моя компания</button>
+									<div class="spollers-open-navigate__body">Контент</div>
+								</div>
+								<div class="spollers-open-navigate__item">
+									<button type="button" data-spoller class="spollers-open-navigate__title _icon-chat">Новое в чатах</button>
+									<div class="spollers-open-navigate__body">
+										<button type="button" class="spollers-open-navigate__button _btn-link _icon-plus">Создать групповой чат</button>
+										<a href="" class="spollers-open-navigate__link _icon-chat">Чат первый <span>18</span></a>
+										<a href="" class="spollers-open-navigate__link _icon-chat">Чат второй <span>18</span></a>
+									</div>
+								</div>
+							</div>
+							<button data-popup="#subscribe" type="button" class="open-navigate__button _btn">Подписаться на новости</button>
+						</div>
+						<div class="open-navigate__footer">
+							<a href="" class="open-navigate__navlink _icon-time">Лента событий</a>
+							<a href="" class="open-navigate__navlink _icon-docs">Отчеты</a>
+							<a href="" class="open-navigate__navlink _icon-pay">Лицензия и оплаты</a>
+							<a href="" class="open-navigate__navlink _icon-suport">Поддержка. Новости</a>
+						</div>
+					</div>
+				</div>
+			</aside>
+			<!-- $=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-> -->
+			<!-- Profile -->
+			<section class="profile">
+				<div class="profile__body _padding">
+					<div class="profile__main main-profile _bg-bord">
+						<div class="main-profile__top">
+							<h4 class="main-profile__title _title-smal">Профиль</h4><button type="button" class="main-profile__logout _icon-log-out">Выход</button>
+						</div>
+						<div class="main-profile__about about-main-profile">
+							<div class="about-main-profile__avatar"><img src="img/avatar.svg" alt="Avatar"></div>
+							<div class="about-main-profile__settings">
+								<div class="about-main-profile__title"><span>Имя пользователя</span><button type="button" class="about-main-profile__edit _icon-edit"></button></div>
+								<button type="button" class="about-main-profile__button">Загрузить фото</button>
+								<button type="button" class="about-main-profile__button">Удалить фото</button>
+							</div>
+						</div>
+						<div class="main-profile__actions">
+							<button type="button" class="main-profile__button _btn-link-big _icon-change">Сменить пароль</button>
+							<button type="button" class="main-profile__button _btn-link-big _icon-mail">Сменить e-mail</button>
+							<button type="button" class="main-profile__button _btn-link-big _icon-noth">Настройки e-mail оповещений</button>
+						</div>
+					</div>
+					<div class="profile__app app-profile _bg-bord">
+						<h4 class="app-profile__title _title-smal">Мобильные приложения</h4>
+						<div class="app-profile__links">
+							<a href="" class="app-profile__link"><img src="img/icons/app-store.svg" alt="Icon"></a>
+							<a href="" class="app-profile__link"><img src="img/icons/google-play.svg" alt="Icon"></a>
+						</div>
+					</div>
+					<div class="profile__company company-profile _bg-bord">
+						<h4 class="company-profile__title _title-smal">Компании</h4>
+						<div class="company-profile__articles articles">
+							<article class="articles__item">
+								<div class="articles__name _icon-category">ООО ГК БЗК</div>
+								<div class="articles__actions">
+									<button type="button" class="articles__button _icon-edit"></button>
+									<button type="button" class="articles__button _icon-trash"></button>
+								</div>
+							</article>
+							<article class="articles__item">
+								<div class="articles__name _icon-category">ООО ГК БЗК</div>
+								<div class="articles__actions">
+									<button type="button" class="articles__button _icon-edit"></button>
+									<button type="button" class="articles__button _icon-trash"></button>
+								</div>
+							</article>
+						</div>
+						<button type="button" class="company-profile__button _btn-link-big _icon-plus">Добавить компанию</button>
+					</div>
+				</div>
+			</section>
+			<!-- $=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-> -->
+		</main>
+		<!-- //======================================================================================================================================================== -->
+		<footer class="footer">
+			<div class="footer__container">
+			</div>
+		</footer>
+		<!-- //======================================================================================================================================================== -->
+		<!-- //======================================================================================================================================================== -->
+		<!-- Subscribe -->
+		<div id="subscribe" aria-hidden="true" class="popup">
+			<div class="popup__wrapper">
+				<div class="popup__content">
+					<button data-close type="button" class="popup__close _icon-cancel"></button>
+					<div class="subscribe__body body-subscribe">
+						<div class="body-subscribe__main">
+							<h4 class="body-subscribe__title _title-big">Подписка на новости</h4>
+							<div class="body-subscribe__text">
+								<p>Платформа в разработке! Подпишитесь на новости и мы сообщим вам, когда весь функционал будет готов, а поставщики приглашены!*</p>
+							</div>
+							<form action="#" class="body-subscribe__form form-subscribe">
+								<label for="#" class="form-subscribe__label"><input autocomplete="off" type="text" name="form[]" data-error="Error" placeholder="Введите имя и фамилию*"></label>
+								<label for="#" class="form-subscribe__label"><input autocomplete="off" type="text" name="form[]" data-error="Error" placeholder="Введите телефон*"></label>
+								<label for="#" class="form-subscribe__label"><input autocomplete="off" type="text" name="form[]" data-error="Error" placeholder="Введите email*"></label>
+								<button data-popup="#check" type="button" class="form-subscribe__button _btn">Подписаться</button>
+							</form>
+							<div class="body-subscribe__access">Нажимая конпку “Подписаться”, вы соглашаетесь <br> <a href="">с условиями политики конфиденциальности</a></div>
+						</div>
+						<div class="body-subscribe__tip">*Так как и для Покупателей, и для Поставщиков услуги платформы будут бесплатны, то мы уверены, что нашему отделу продвижения выполнить эту задачу не составит труда.</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- $=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-> -->
+		<!-- Check -->
+		<div id="check" aria-hidden="true" class="popup">
+			<div class="popup__wrapper">
+				<div class="popup__content check">
+					<button data-close type="button" class="popup__close _icon-cancel"></button>
+					<div class="check__body body-check">
+						<div class="body-check__content">
+							<div class="body-check__icon"><img src="img/icons/check.svg" alt="Icon"></div>
+							<h3 class="body-check__title _title-big">Спасибо, вы успешно подписались на новости</h3>
+							<button data-close type="button" class="body-check__button _btn">Понятно</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- //======================================================================================================================================================== -->
+	</div>
+	<script src="js/app.min.js?_v=20231011135706"></script>
+</body>
+
+</html>
